@@ -18,9 +18,16 @@ The volume data should be stored in nrrd format, which can be used directly or i
 - `AortaFramework.py` Main application, run this for execution. 
 - `defaults.py` Global constants (e.g. colors)
 - `mainwindow_ui.py` Main UI setup. 
-- TODO: weights 
+
 
 ## Setup
+### Pretrained Model Weights 
+To generate preditions for the aorta segmentation, the model weights have to be downloaded from the Assets section of the *"paper release"*:
+
+[`best_model497`](https://github.com/FvDeylen/AortaFramework/releases/download/paper_release/best_model497)
+
+After downloading, place the file into the project root directory.
+
 ### Dependencies
 
 - Python 3.10
@@ -58,7 +65,7 @@ pip install pandas
 pip install scikit-image
 ```
 
-The main application can be run and modified now 
+The main application can be run and modified now. 
 
 ## First Steps 
 1. Start the application with (environment has to be active)
